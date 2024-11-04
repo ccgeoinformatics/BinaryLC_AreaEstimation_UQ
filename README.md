@@ -41,6 +41,13 @@ lcmap,n11,n12,n21,n22,mapped_pixels_class_1,mapped_pixels_class_0,pixel_size,uni
 GISD30_2000,354,46,33,67,42640,4005,30,m²
 GISD30_2005,363,37,33,67,43091,3554,30,m²
 ```
+Both scripts assumes that the error/confusion matrix is structured as follows ('1' and '0' are the two classes; but this can be modified in the scripts, e.g, '1' and '2', or 'Builtup' and'Non-Builtup', etc.)
+               Reference
+               Class 1      Class 0     Total
+Mapped 1        n11           n12         n1.
+Mapped 0        n21           n22         n2.
+Total           n.1           n.2         N
+
 
 ## Installation
 
