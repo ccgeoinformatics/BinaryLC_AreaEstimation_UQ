@@ -69,6 +69,7 @@ Both scripts assumes that the error/confusion matrix is structured as follows ('
 - **N**: Total number of pixels in the error matrix (sum of all elements).
 
 
+
 ## Installation
 
 ### Option 1: Clone the Repository
