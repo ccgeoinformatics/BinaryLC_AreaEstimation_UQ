@@ -13,7 +13,7 @@ This repository provides tools for assessing the accuracy of binary or two-class
 ## Methodology
 
 The methodology follows these references:
-1. **Olofsson et al. (2013)**: Making better use of accuracy data in land change studies: Estimating area and change accuracy. *Remote Sensing of Environment*, 129, 122-131.
+1. **Olofsson et al. (2013)**: Making better use of accuracy data in land change studies: Estimating accuracy and area and quantifying uncertainty using stratified estimation. *Remote Sensing of Environment*, 129, 122-131.
    [https://doi.org/10.1016/j.rse.2012.10.031](https://doi.org/10.1016/j.rse.2012.10.031)
 2. **Olofsson et al. (2014)**: Good practices for estimating area and assessing accuracy of land change. *Remote Sensing of Environment*, 148, 42-57.
    [https://doi.org/10.1016/j.rse.2014.02.015](https://doi.org/10.1016/j.rse.2014.02.015)
