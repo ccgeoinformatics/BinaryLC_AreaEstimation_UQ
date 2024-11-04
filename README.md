@@ -75,6 +75,7 @@ After obtaining the files via either option, install the dependencies using the 
 ## Contact
 
 For any questions or issues, please reach out to:
+
 **Jojene R. Santillan**  
 Institute of Photogrammetry and GeoInformation (IPI), Leibniz University Hannover, Germany  
 & Caraga Center for Geo-Informatics & Department of Geodetic Engineering, College of Engineering and Geosciences, Caraga State University, Butuan City, Philippines  
