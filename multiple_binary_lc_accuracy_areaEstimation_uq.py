@@ -8,11 +8,14 @@ Description:
     to evaluate classification accuracy, including user’s accuracy, producer’s accuracy, 
     overall accuracy, error-adjusted area estimates, and confidence intervals.
 
-    The methodology follows Olofsson et al. (2013):
+    The methodology for calculating error-adjusted area estimates, accuracy metrics, and 
+    confidence intervals follows the approach outlined in Olofsson et al. (2013):
         Olofsson, P., Foody, G. M., Stehman, S. V., & Woodcock, C. E. (2013). 
         Making better use of accuracy data in land change studies: 
-        Estimating area and change accuracy. Remote Sensing of Environment, 129, 122-131.
-		
+        Estimating accuracy and area and quantifying uncertainty using stratified estimation. 
+	Remote Sensing of Environment, 129, 122-131.
+        https://doi.org/10.1016/j.rse.2012.10.031
+    
 	The formulas for the variance and standard errors of user's and producer's accuracy
 	and overall accuracy are based on Olofsson et al. (2014):
 		Olofsson, P., Foody, G. M., Herold, M., Stehman, S. V., Woodcock, C. E.,
