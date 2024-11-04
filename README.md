@@ -1,7 +1,7 @@
 
-# Binary Land Cover Map Accuracy Assessment, Area Estimation, and Uncertainty Quantification
+# Binary/Two-class Land Cover Map Accuracy Assessment, Area Estimation, and Uncertainty Quantification
 
-This repository provides tools for assessing the accuracy and area estimation of binary land cover classification maps, following the methodologies presented in Olofsson et al. (2013, 2014). It includes scripts for single and multiple land cover maps, allowing for iterative accuracy assessment and uncertainty quantification.
+This repository provides tools for assessing the accuracy of binary or two-class land cover classification maps, including unbiased class area estimation and uncertainty quantifications following the methodologies presented in Olofsson et al. (2013, 2014). It includes scripts for single and multiple binary land cover maps, allowing for iterative accuracy assessment and uncertainty quantification.
 
 ## Features
 
@@ -20,8 +20,8 @@ The methodology follows these references:
 
 ## Scripts
 
-1. **single_binary_lc_accuracy_areaEstimation_uq.py**: Processes a single land cover map, performing accuracy assessment, area estimation, and uncertainty quantification.
-2. **multiple_binary_lc_accuracy_areaEstimation_uq.py**: Processes multiple land cover maps from a CSV file.
+1. **single_binary_lc_accuracy_areaEstimation_uq.py**: Processes a single binary land cover map, performing accuracy assessment, area estimation, and uncertainty quantification.
+2. **multiple_binary_lc_accuracy_areaEstimation_uq.py**: Processes multiple binary land cover maps from a CSV file.
 
 ### CSV File Structure for Multiple Land Cover Map Script
 
@@ -31,7 +31,7 @@ The input CSV file for the multiple land cover map script should have the follow
 - `n11, n12, n21, n22`: Error matrix values
 - `mapped_pixels_class_1, mapped_pixels_class_0`: Mapped pixel counts for each class
 - `pixel_size`: Pixel size in ground units
-- `unit`: Unit of measurement (e.g., m²)
+- `unit`: Unit of area (e.g., m²)
 
 Example:
 ```csv
