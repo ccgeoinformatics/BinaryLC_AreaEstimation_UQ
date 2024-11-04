@@ -44,14 +44,14 @@ GISD30_2005,363,37,33,67,43091,3554,30,m²
 
 ### Option 1: Clone the Repository
 
-To download the repository using Git:
+Download the repository using Git:
 
 ```bash
 git clone https://github.com/ccgeoinformatics/BinaryLC_AreaEstimation_UQ.git
 cd BinaryLC_AreaEstimation_UQ
 ```
 ### Option 2: Download as a ZIP File
-1. Go to the repository on GitHub.
+1. Go to the [repository on GitHub](https://github.com/ccgeoinformatics/BinaryLC_AreaEstimation_UQ).
 2. Click on the "Code" button.
 3. Select "Download ZIP" and extract the downloaded file.
 
