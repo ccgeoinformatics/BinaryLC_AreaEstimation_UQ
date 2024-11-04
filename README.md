@@ -44,7 +44,7 @@ GISD30_2005,363,37,33,67,43091,3554,30,m²
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/binary-landcover-accuracy-estimation.git
+   git clone https://github.com/ccgeoinformatics/BinaryLC_AreaEstimation_UQ.git
    ```
 2. Install required Python packages:
    ```bash
