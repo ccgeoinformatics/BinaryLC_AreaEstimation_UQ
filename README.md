@@ -42,11 +42,21 @@ GISD30_2005,363,37,33,67,43091,3554,30,m²
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ccgeoinformatics/BinaryLC_AreaEstimation_UQ.git
-   ```
-2. Install required Python packages:
+### Option 1: Clone the Repository
+
+To download the repository using Git:
+
+```bash
+git clone https://github.com/ccgeoinformatics/BinaryLC_AreaEstimation_UQ.git
+cd BinaryLC_AreaEstimation_UQ
+```
+### Option 2: Download as a ZIP File
+1. Go to the repository on GitHub.
+2. Click on the "Code" button.
+3. Select "Download ZIP" and extract the downloaded file.
+
+### Install Required Packages
+After obtaining the files via either option, install the dependencies using the requirements.txt file:
    ```bash
    pip install -r requirements.txt
    ```
