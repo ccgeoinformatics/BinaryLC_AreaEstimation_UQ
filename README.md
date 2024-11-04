@@ -44,7 +44,7 @@ GISD30_2005,363,37,33,67,43091,3554,30,m²
 
 ## Two-Class Error Matrix
 
-Both scripts assumes that the error/confusion matrix is structured as follows ('1' and '0' are the two classes; but this can be modified in the scripts, e.g, '1' and '2', or 'Builtup' and'Non-Builtup', etc.)
+Both scripts assume that the error/confusion matrix is structured as follows ('1' and '0' are the two classes; but this can be modified in the scripts, e.g, '1' and '2', or 'Builtup' and'Non-Builtup', etc.)
 
 |               | Reference Class 1 | Reference Class 0 | Total  |
 |---------------|-------------------|-------------------|--------|
