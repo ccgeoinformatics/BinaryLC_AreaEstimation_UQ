@@ -17,10 +17,12 @@ The methodology follows these references:
    [https://doi.org/10.1016/j.rse.2012.10.031](https://doi.org/10.1016/j.rse.2012.10.031)
 2. **Olofsson et al. (2014)**: Good practices for estimating area and assessing accuracy of land change. *Remote Sensing of Environment*, 148, 42-57.
    [https://doi.org/10.1016/j.rse.2014.02.015](https://doi.org/10.1016/j.rse.2014.02.015)
+   
+Users of the scripts are advised to read the above references for the theoretical concepts behind the methods, including the assumptions (for example, the error matrix shall be generated from a stratified random sampling design).
 
 ## Scripts
 
-1. **single_binary_lc_accuracy_areaEstimation_uq.py**: Processes a single binary land cover map, performing accuracy assessment, area estimation, and uncertainty quantification.
+1. **single_binary_lc_accuracy_areaEstimation_uq.py**: Processes a single binary land cover map, performing accuracy assessment, area estimation, and uncertainty quantification. The entries of the error (confusion) matrix shall be manually entered or provided within the script, including the number of pixels mapped/classified for each class.
 2. **multiple_binary_lc_accuracy_areaEstimation_uq.py**: Processes multiple binary land cover maps from a CSV file.
 
 ### CSV File Structure for Multiple Land Cover Map Script
