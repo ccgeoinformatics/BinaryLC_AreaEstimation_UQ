@@ -41,12 +41,32 @@ lcmap,n11,n12,n21,n22,mapped_pixels_class_1,mapped_pixels_class_0,pixel_size,uni
 GISD30_2000,354,46,33,67,42640,4005,30,m²
 GISD30_2005,363,37,33,67,43091,3554,30,m²
 ```
+
+## Two-Class Error Matrix
+
 Both scripts assumes that the error/confusion matrix is structured as follows ('1' and '0' are the two classes; but this can be modified in the scripts, e.g, '1' and '2', or 'Builtup' and'Non-Builtup', etc.)
-               Reference
-               Class 1      Class 0     Total
-Mapped 1        n11           n12         n1.
-Mapped 0        n21           n22         n2.
-Total           n.1           n.2         N
+
+|               | Reference Class 1 | Reference Class 0 | Total  |
+|---------------|-------------------|-------------------|--------|
+| **Mapped 1**  | n11               | n12               | n1.    |
+| **Mapped 0**  | n21               | n22               | n2.    |
+| **Total**     | n.1               | n.2               | N      |
+
+- **n11**: The number of pixels correctly classified as **Class 1** (true positives for Class 1).
+- **n12**: The number of pixels misclassified as **Class 1** but are actually **Class 0** (false positives for Class 1).
+- **n21**: The number of pixels misclassified as **Class 0** but are actually **Class 1** (false negatives for Class 1).
+- **n22**: The number of pixels correctly classified as **Class 0** (true negatives for Class 1).
+
+### Row Totals:
+- **n1.**: Total pixels mapped as **Class 1** (sum of n11 and n12).
+- **n2.**: Total pixels mapped as **Class 0** (sum of n21 and n22).
+
+### Column Totals:
+- **n.1**: Total reference pixels for **Class 1** (sum of n11 and n21).
+- **n.2**: Total reference pixels for **Class 0** (sum of n12 and n22).
+
+### Overall Total:
+- **N**: Total number of pixels in the error matrix (sum of all elements).
 
 
 ## Installation
