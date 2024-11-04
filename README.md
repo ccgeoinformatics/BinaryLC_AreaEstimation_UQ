@@ -33,7 +33,7 @@ The input CSV file for the multiple land cover map script should have the follow
 - `pixel_size`: Pixel size in ground units
 - `unit`: Unit of area (e.g., m²)
 
-Example:
+Example contents of input.csv file:
 ```csv
 lcmap,n11,n12,n21,n22,mapped_pixels_class_1,mapped_pixels_class_0,pixel_size,unit
 GISD30_2000,354,46,33,67,42640,4005,30,m²
