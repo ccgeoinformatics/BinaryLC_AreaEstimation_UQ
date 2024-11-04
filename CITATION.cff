@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: BinaryLC_AreaEstimation_UQ
+title: BinaryLC_AreaEstimation_UQ: A Python package for binary land cover map accuracy assessment, area estimation, and uncertainty quantification
 message: "If you use this software, please cite it as follows."
 authors:
   - name: "Jojene R. Santillan"
